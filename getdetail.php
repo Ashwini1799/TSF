@@ -106,7 +106,7 @@ $row_count=mysqli_num_rows($result);
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="user.php" method="post"  class="view">
-					<button class="button1" type="submit" name="name" value="Avinash">View</button>
+					<button class="button1" type="submit" name="name" value="Ashwini">View</button>
 				</form>
 			</td>
 		</tr>
@@ -120,7 +120,7 @@ $row_count=mysqli_num_rows($result);
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="user.php" method="post" class="view">
-					<button class="button1" type="submit" name="name" value="Harshal">View</button>
+					<button class="button1" type="submit" name="name" value="Shreya">View</button>
 				</form>
 			</td>
 		</tr>
@@ -134,7 +134,7 @@ $row_count=mysqli_num_rows($result);
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="user.php" method="post" class="view">
-					<button class="button1" type="submit" name="name" value="Prathamesh">View</button>
+					<button class="button1" type="submit" name="name" value="Prathmesh">View</button>
 				</form>
 			</td>
 		</tr>
@@ -148,7 +148,7 @@ $row_count=mysqli_num_rows($result);
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="user.php" method="post" class="view">
-					<button class="button1" type="submit" name="name" value="Ajay">View</button>
+					<button class="button1" type="submit" name="name" value="Ajit">View</button>
 				</form>
 			</td>
    
@@ -164,7 +164,7 @@ $row_count=mysqli_num_rows($result);
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="user.php" method="post" class="view">
-					<button class="button1" type="submit" name="name" value="Vaishali">View</button>
+					<button class="button1" type="submit" name="name" value="Vishakha">View</button>
 				</form>
 			</td>
 		</tr>
@@ -193,7 +193,7 @@ $row_count=mysqli_num_rows($result);
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="user.php" method="post" class="view">
-					<button class="button1"type="submit" name="name" value="Ravina">View</button>
+					<button class="button1"type="submit" name="name" value="Ajinkya">View</button>
 				</form>
 			</td>
 		</tr>
