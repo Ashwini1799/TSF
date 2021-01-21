@@ -221,7 +221,7 @@ $row_count=mysqli_num_rows($result);
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="user.php" method="post" class="view">
-					<button class="button1"type="submit" name="name" value="Avdhut">View</button>
+					<button class="button1"type="submit" name="name" value="Shrish">View</button>
 				</form>
 			</td>
         </tr>
@@ -235,7 +235,7 @@ $row_count=mysqli_num_rows($result);
 			<td><?php echo  $row["amount"]; ?></td>
 			<td>
 				<form action="user.php" method="post" class="view">
-					<button class="button1"type="submit" name="name" value="Rushi">View</button>
+					<button class="button1"type="submit" name="name" value="Mayuri">View</button>
 				</form>
 			</td>
 		</tr>
