@@ -70,35 +70,35 @@ $result=mysqli_query($con,$q);
 		 function random_function()
             {
                 var a=document.getElementById("input").value;
-				if(a==="Avinash"){
-				 var arr=["Harshal","Prathamesh","Ajay","Vaishali","Monika","Ravina","Nishant","Avdhut","Rushi"];
+				if(a==="Ashwini"){
+				 var arr=["Shreya","Prathmesh","Ajit","Vishakha","Monika","Ajinkya","Nishant","Shrish","Mayuri"];
 				 }
-				 else if(a==="Harshal"){
-					var arr=["Avinash","Prathamesh","Ajay","Vaishali","Monika","Ravina","Nishant","Avdhut","Rushi"];
+				 else if(a==="Shreya"){
+					var arr=["Ashwini","Prathmesh","Ajit","Vishakha","Monika","Ajinkya","Nishant","Shrish","Mayuri"];
 				}
-				else if(a==="Prathamesh"){
-					var arr=["Avinash","Harshal","Ajay","Vaishali","Monika","Ravina","Nishant","Avdhut","Rushi"];
+				else if(a==="Prathmesh"){
+					var arr=["Ashwini","Shreya","Ajit","Vishakha","Monika","Ajinkya","Nishant","Shrish","Mayur"];
 				}
-				else if(a==="Ajay"){
-					var arr=["Avinash","Harshal","Prathamesh","Vaishali","Monika","Ravina","Nishant","Avdhut","Rushi"];
+				else if(a==="Ajit"){
+					var arr=["Ashwini","Shreya","Prathmesh","Vishakha","Monika","Ajinkya","Nishant","Shrish","Mayur"];
 				 }
-				 else if(a==="Vaishali"){
-					var arr=["Avinash","Harshal","Prathamesh","Ajay","Monika","Ravina","Nishant","Avdhut","Rushi"];
+				 else if(a==="Vishakha"){
+					var arr=["Ashwini","Shreya","Prathmesh","Ajit","Monika","Ajinkya","Nishant","Shrish","Mayuri"];
 				 }
 				 else if(a==="Monika"){
-					var arr=["Avinash","Harshal","Prathamesh","Ajay","Vaishali","Ravina","Nishant","Avdhut","Rushi"];
+					var arr=["Ashwini","Shreya","Prathmesh","Ajit","Vishakha","Ajinkya","Nishant","Shrish","Mayuri"];
 				 }
-				 else if(a==="Ravina"){
-					var arr=["Avinash","Harshal","Prathamesh","Ajay","Vaishali","Monika","Nishant","Avdhut","Rushi"];
+				 else if(a==="Ajinkya"){
+					var arr=["Ashwini","Shreya","Prathmesh","Ajit","Vishakha","Monika","Nishant","Shrish","Mayuri"];
 				 }
 				 else if(a==="Nishant"){
-					var arr=["Avinash","Harshal","Prathamesh","Ajay","Vaishali","Monika","Ravina","Avdhut","Rushi"];
+					var arr=["Ashwini","Shreya","Prathmesh","Ajit","Vishakha","Monika","Ajinkya","Shrish","Mayuri"];
 				 }
-				 else if(a==="Avdhut"){
-					var arr=["Avinash","Harshal","Prathamesh","Ajay","Vaishali","Monika","Ravina","Nishant","Rushi"];
+				 else if(a==="Shrish"){
+					var arr=["Ashwini","Shreya","Prathmesh","Ajit","Vishakha","Monika","Ajinkya","Nishant","Mayuri"];
 				 }
-				 else if(a==="Rushi"){
-				 var arr=["Avinash","Harshal","Prathamesh","Ajay","Vaishali","Monika","Ravina","Nishant","Avdhut"];
+				 else if(a==="Mayuri"){
+				 var arr=["Ashwini","Shreya","Prathmesh","Ajit","Vishakha","Monika","Ajinkya","Nishant","Mayuri"];
 				 }
                 var string="";
              
@@ -117,16 +117,16 @@ $result=mysqli_query($con,$q);
 		<label for="sender" align="left">Senders Name: &nbsp;</label>
 		<select id="input" name="sender"style="font-size: 12pt; height: 28px; width:290px;" align="middle" onchange="random_function()">
 			<option  selected>Select Name</option>
-			<option value="Avinash">Avinash</option>
-			<option value="Harshal">Harshal</option>
-			<option value="Prathamesh">Prathamesh</option>
-			<option value="Ajay">Ajay</option>
-			<option value="Vaishali">Vaishali</option>
+			<option value="Ashwini">Ashwini</option>
+			<option value="Shreya">Shreya</option>
+			<option value="Prathmesh">Prathmesh</option>
+			<option value="Ajit">Ajit</option>
+			<option value="Vishakha">Vishakha</option>
 			<option value="Monika">Monika</option>
-			<option value="Ravina">Ravina</option>
+			<option value="Ajinkya">Ajinkya</option>
 			<option value="Nishant">Nishant</option>
-			<option value="Avdhut">Avdhut</option>
-			<option value="Rushi">Rushi</option>
+			<option value="Shrish">Shrish</option>
+			<option value="Mayuri">Mayuri</option>
 		</select><br><br>
 		<label for="receiver" align="left">Receiver Name:&nbsp;</label>
 		<select id="output" name="receiver"style="font-size: 12pt; height: 28px; width:290px;" align="middle" onchange="random_function1()" >
