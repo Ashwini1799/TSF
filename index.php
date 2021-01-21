@@ -23,8 +23,8 @@
 <body >
 	<div id="header">
        <br>
-       <h1 style=" font-family:Agency FB; font-size: 70px; color:#00ff00;text-shadow: 2px 2px black;"> Transfer your money with NORTHEN Bank </h1>
-       <h2 style=" font-family:Agency FB; font-size: 55px;color:#ee10ee;text-shadow: 2px 2px black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NORTHEN BANK </h2>
+       <h1 style=" font-family:Agency FB; font-size: 70px; color:#00ff00;text-shadow: 2px 2px black;">NORTHEN BANK </h1>
+       <h2 style=" font-family:Agency FB; font-size: 55px;color:#ee10ee;text-shadow: 2px 2px black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Transfer your money with NORTHEN BANK </h2>
     </div>
         <div id="section">
             <table>
