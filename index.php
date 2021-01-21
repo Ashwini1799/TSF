@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Basic Banking System</title>
+    <title>NORTHEN BANK</title>
     <link rel="shortcut icon" href="images/cm.png">
    
 	 <link rel="stylesheet" href="index_button.css">
