@@ -32,10 +32,10 @@ CREATE TABLE `mini_statement` (
 --
 
 INSERT INTO `mini_statement` (`sender`, `receiver`, `amount`) VALUES
-('Ashwini', 'Prathamesh', 100),
+('Ashwini', 'Prathmesh', 100),
 ('Ajit', 'Nishant', 50),
 ('Ajinkya', 'Shrish', 200),
-('Prathamesh', 'Monika', 100),
+('Prathmesh', 'Monika', 100),
 ('Shreya', 'Mayuri', 110),
 ('Vishakha', 'Ashwini', 110);
 
@@ -58,12 +58,12 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`name`, `email`, `amount`) VALUES
 ('Ashwini', 'ashwini@gmail.com', 1010),
 ('Shreya ', 'shreya@gmail.com', 990),
-('Prathamesh ', 'prathamesh@gmail.com', 1000),
+('Prathmesh ', 'prathmesh@gmail.com', 1000),
 ('Ajit ', 'ajit@gmail.com', 950),
 ('Vishakha', 'vishakha@gmail.com', 1000),
 ('Monika', 'monika@gmail.com', 1000),
 ('Ajinkya', 'ajinkya@gmail.com', 1000),
-('Nishant', 'nishanth@gmail.com', 1050),
+('Nishant', 'nishant@gmail.com', 1050),
 ('Shrish', 'shrish@gmail.com', 800),
 ('Mayuri', 'mayuri@gmail.com', 1200);
 COMMIT;
